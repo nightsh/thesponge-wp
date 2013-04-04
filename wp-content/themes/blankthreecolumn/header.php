@@ -98,7 +98,7 @@
 <div id="header">
 		
 	<div id="logo">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"></a>
+        <a href="<?php echo esc_url( site_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"></a>
     </div>
 	<div id="bloginfo">
         <h2 class="top_h"><?php bloginfo('description'); ?></h2>
