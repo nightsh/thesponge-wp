@@ -114,11 +114,6 @@
 	
 <div id="access">
 <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
-<!--
-    <div id="button_projects">
-        <a href="<?php echo site_url(); ?>/?page_id=32"><img id="top_nav_projects" src="<?php echo get_template_directory_uri(); ?>/images/button_projects.png"></a>
-    </div>
--->
 </div>
 	
 <!--<img src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" class="header-img" alt="" />-->
