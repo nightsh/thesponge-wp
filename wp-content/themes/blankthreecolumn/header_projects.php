@@ -101,7 +101,7 @@
 <div id="header">
 		
 	<div id="logo">
-        <a href="<?php echo site_url(); ?>/?page_id=32"><img src="<?php echo get_template_directory_uri(); ?>/images/projects_logo.png"></a>
+        <a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"></a>
     </div>
 	<div id="bloginfo">
         <h2 class="top_h"><?php bloginfo('description'); ?></h2>
@@ -117,9 +117,11 @@
 	
 <div id="access">
 <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+<!--
     <div id="button_projects">
         <a href="<?php echo site_url(); ?>"><img id="top_nav_projects" src="<?php echo get_template_directory_uri(); ?>/images/button_blog.png"></a>
     </div>
+-->
 </div>
 	
 <!--<img src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" class="header-img" alt="" />-->

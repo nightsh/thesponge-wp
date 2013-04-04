@@ -37,5 +37,13 @@
 
 
 <?php wp_footer(); ?>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript">
+	$('#menu-item-686 a').attr('href','http://omc.thesponge.eu');
+	$('#menu-item-686 a').attr('target','_blank');
+	$('#menu-item-686 a').css('height','16px');
+	$('#menu-item-686 ').css('background','url("<?php echo get_template_directory_uri(); ?>/images/omc_button.png")');
+	//$('#menu-item-686 a').html('<img src="<?php echo get_template_directory_uri(); ?>/images/omc_button.png">');
+</script>
 </body>
 </html>

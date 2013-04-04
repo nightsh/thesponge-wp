@@ -189,7 +189,7 @@ font-size:20px;
     margin-left: auto;
     margin-right: auto;
     width:541px;
-    padding-left:200px;
+    /*padding-left:200px;*/
 }
 
 #bloginfo {
@@ -305,7 +305,8 @@ padding-left:0px;}
 }
 
 #logo{
-	float:left;
+	/*float:left;*/
+	text-align: center;
 	
 }
 
@@ -342,12 +343,14 @@ font-weight:normal;
 }
 
 #access .menu-header ul,
-div.menu ul {
+div.menu ul,
+ul.menu {
 	list-style: none;
 	margin-left:0px;
 }
 #access .menu-header li,
-div.menu li {
+div.menu li,
+ul.menu li {
 	float: left;
 	position: relative;
 	margin-right:8px;
@@ -358,6 +361,14 @@ div.menu li {
 	-moz-border-radius:5px;
 	border-radius:5px;
     background-color:#44893f;
+}
+
+#access .menu-header li#menu-item-686
+{ background-color:#939598;
+}
+
+#access .menu-header li#menu-item-682
+{ background-color:#939598;
 }
 
 #access .menu-header li#menu-item-80
@@ -1439,12 +1450,12 @@ float:left;}
     color: #58585A;
 }
 
-#access .menu-header li.current-menu-item#menu-item-80, #access .menu-header li.current-menu-item#menu-item-583, #access .menu-header li.current-menu-item#menu-item-84, #access .menu-header li.current-menu-item#menu-item-83, #access .menu-header li.current-menu-item#menu-item-81, #access .menu-header li.current-menu-item#menu-item-22
+#access .menu-header li.current-menu-item#menu-item-80, #access .menu-header li.current-menu-item#menu-item-583, #access .menu-header li.current-menu-item#menu-item-84, #access .menu-header li.current-menu-item#menu-item-83, #access .menu-header li.current-menu-item#menu-item-81, #access .menu-header li.current-menu-item#menu-item-22, #access .menu-header li.current-menu-item#menu-item-682, #access .menu-header li.current-menu-item#menu-item-686
 {
     background-color: #44893f
 }
 
-#access .menu-header li.current-page-ancestor#menu-item-80, #access .menu-header li.current-page-ancestor#menu-item-84, #access .menu-header li.current-page-ancestor#menu-item-583, #access .menu-header li.current-page-ancestor#menu-item-83, #access .menu-header li.current-page-ancestor#menu-item-81
+#access .menu-header li.current-page-ancestor#menu-item-80, #access .menu-header li.current-page-ancestor#menu-item-84, #access .menu-header li.current-page-ancestor#menu-item-583, #access .menu-header li.current-page-ancestor#menu-item-83, #access .menu-header li.current-page-ancestor#menu-item-81, #access .menu-header li.current-page-ancestor#menu-item-682, #access .menu-header li.current-page-ancestor#menu-item-686
 {
     background-color: #44893f;
 }
@@ -1897,4 +1908,15 @@ float:left;
 margin-left:16px;  
 margin-bottom:0px; 
 min-height:180px;
+}
+
+#menu-top-menu {
+	width: 750px;
+	padding-left: 16px;
+	margin: 0px auto;
+	margin-left: 97px !important;
+}
+
+#menu-item-686 a {
+	content: '';
 }
