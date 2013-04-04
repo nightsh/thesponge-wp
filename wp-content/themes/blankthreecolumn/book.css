@@ -1,0 +1,150 @@
+/*
+Theme Name: Blank Three Column
+Theme URI: http://blankthemes.com/blank-three-column/
+Description: A starter theme for WordPress.
+Author: Blank Themes
+Author URI: http://blankthemes.com/
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags: white, custom-header, custom-background, custom-menu, threaded-comments, microformats
+*/
+
+
+
+/* basics */
+
+*{margin:0; padding:0;}
+
+body {
+    font-family: verdana,arial;
+    font-size: 14px;
+}
+
+
+body, input, textarea {
+    color: #111;
+
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #000;
+    font-family: Georgia,"Times New Roman";
+    font-weight: bold;
+    text-rendering: optimizelegibility;
+}
+
+hr {
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.7em;
+}
+
+/* Text elements */
+p {
+    margin-bottom: 12px;
+}
+
+
+ul, ol {
+    margin: 0 0 1.7em 2.5em;
+}
+ul {
+    list-style: square;
+}
+ol {
+    list-style-type: decimal;
+}
+ol ol {
+    list-style: upper-alpha;
+}
+ol ol ol {
+    list-style: lower-roman;
+}
+ol ol ol ol {
+    list-style: lower-alpha;
+}
+ul ul, ol ol, ul ol, ol ul {
+    margin-bottom: 0;
+}
+dl {
+    margin: 0 1.7em;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-bottom: 1.7em;
+}
+strong {
+    font-weight: bold;
+}
+cite, em, i {
+    font-style: italic;
+}
+blockquote {
+    font-style: italic;
+    margin: 0 30px 1.7em;
+}
+pre {
+    background: #f4f4f4;
+    font: 13px "Courier 10 Pitch",Courier,monospace;
+    line-height: 1.7;
+    margin-bottom: 1.7em;
+    padding: 0.85em 1.7em;
+}
+code {
+    font: 12px Monaco,Consolas,"Andale Mono","DejaVu Sans Mono",monospace;
+}
+abbr, acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help;
+}
+ins {
+    background: #fff9c0;
+    text-decoration: none;
+}
+sup,
+sub {
+    font-size: 10px;
+    height: 0;
+    line-height: 1;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    bottom: 1ex;
+}
+sub {
+    top: .5ex;
+}
+input[type="text"],
+textarea {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+textarea {
+    padding-left: 3px;
+    width: 98%;
+}
+input[type=text] {
+    padding: 3px;
+}
+
+/* Links */
+a{color:#0066cc; text-decoration:none;}
+
+a:hover{text-decoration: none; color:#000;}
+
+/* Left - Book Image */
+
+#book-image
+{
+    width:180px;
+    text-align:center;
+    float:left;
+}
+

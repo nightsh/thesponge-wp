@@ -1,0 +1,37 @@
+/*
+Theme Name: Blank Three Column
+Theme URI: http://blankthemes.com/blank-three-column/
+Description: A starter theme for WordPress.
+Author: Blank Themes
+Author URI: http://blankthemes.com/
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags: white, custom-header, custom-background, custom-menu, threaded-comments, microformats
+*/
+
+
+
+/* basics */
+
+*{margin:0; padding:0;}
+
+body {
+    font-family: verdana,arial;
+    font-size: 14px;
+    color: #58585A;
+}
+
+
+/* Links */
+a.project_title
+{color: #58585A; text-decoration:none;}
+
+.logo_blog
+{
+    width:274px;
+    height:82px;
+    float:left;
+}
+
+
