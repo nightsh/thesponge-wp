@@ -101,7 +101,7 @@
 <div id="header">
 		
 	<div id="logo">
-        <a href="<?php echo site_url(); ?>/?page_id=32"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"></a>
+        <a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"></a>
     </div>
 	<div id="bloginfo">
         <h2 class="top_h"><?php bloginfo('description'); ?></h2>
