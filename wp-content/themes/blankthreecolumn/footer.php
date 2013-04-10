@@ -24,36 +24,36 @@
                     <tr>
                         <td>
                             <a href="http://crji.org" target="_blank">
-                                <img src="<?php echo bloginfo('template_directory'); ?>/images/crji_logo.png" alt="" /></td>
+                                <img src="<?php echo bloginfo('template_directory'); ?>/images/crji_logo.png" alt="Centrul Român pentru Jurnalism de Investigație" /></td>
                             </a>
                         <td>
                         <td>
                             <a href="http://activewatch.ro" target="_blank">
-                                <img src="<?php echo bloginfo('template_directory'); ?>/images/activewatch_logo.png" alt="" /></td>
+                                <img src="<?php echo bloginfo('template_directory'); ?>/images/activewatch_logo.png" alt="Agenția de monitorizare a presei " /></td>
                             </a>
                         <td>
                             <a href="http://apti.ro" target="_blank">
-                                <img src="<?php echo bloginfo('template_directory'); ?>/images/apti_logo.png" alt="" />
+                                <img src="<?php echo bloginfo('template_directory'); ?>/images/apti_logo.png" alt="Asociația pentru Tehnologie și Internet" />
                             </a>
                         </td>
                         <td>
                             <a href="http://ceata.org" target="_blank">
-                                <img src="<?php echo bloginfo('template_directory'); ?>/images/ceata_logo.png" alt="" />
+                                <img src="<?php echo bloginfo('template_directory'); ?>/images/ceata_logo.png" alt="Fundația Ceata" />
                             </a>
                         </td>
                         <td>
                             <a href="http://geo-spatial.org" target="_blank">
-                                <img src="<?php echo bloginfo('template_directory'); ?>/images/geo-spatial_logo.png" alt="" />
+                                <img src="<?php echo bloginfo('template_directory'); ?>/images/geo-spatial_logo.png" alt="geo-spatial.org" />
                             </a>
                         </td>
                         <td>
                             <a href="http://rosedu.org" target="_blank">
-                                <img src="<?php echo bloginfo('template_directory'); ?>/images/rosedu_logo.png" alt="" />
+                                <img src="<?php echo bloginfo('template_directory'); ?>/images/rosedu_logo.png" alt="Romanian Open Source Education" />
                             </a>
                         </td>
                         <td>
                             <a href="http://fspub.unibuc.ro" target="_blank">
-                                <img src="<?php echo bloginfo('template_directory'); ?>/images/fspub_logo.png" alt="" />
+                                <img src="<?php echo bloginfo('template_directory'); ?>/images/fspub_logo.png" alt="Facultatea de Științele Politicii - Universitatea din București" />
                             </a>
                         </td>
                     </tr>
