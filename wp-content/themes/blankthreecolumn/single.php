@@ -27,10 +27,10 @@ get_header(); ?>
                 echo '<span class="tag-post"><ul><li class="cat-item cat-item-'.$category[0]->cat_ID.'"><a href="'.get_category_link($category[0]->term_id).'" class="cat-item">'.$category[0]->cat_name.'</a></li></ul></span>';
             }
             ?></div>
-            
+
 					</div><!-- .entry-meta -->
-					
-					
+
+
 			<?php the_post_thumbnail('featured-post-thumbnail'); ?>
 
 					<div class="entry-content-books">
@@ -41,7 +41,7 @@ get_header(); ?>
 					<!--<div class="entry-info">
 						<?php BTC_posted_in(); ?>
 						<?php edit_post_link( __( 'Edit', 'BTC' ), '<span class="edit-link">', '</span>' ); ?>
-						
+
 					</div><!-- .entry-info -->
 				</div><!-- #post-## -->
 
@@ -49,9 +49,9 @@ get_header(); ?>
 					<div class="nav-previous"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'BTC' ) . '</span> %title' ); ?></div>
 					<div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'BTC' ) . '</span>' ); ?></div>
 				</div><!-- #nav-below -->
-				
-				
-				
+
+
+
 <?php
 global $post;
 $category = get_the_category($post->ID);
@@ -75,14 +75,14 @@ setup_postdata($post);
 				<div class="posts-block">
 
 				<?php comments_template( '', true ); ?>
-				
-				
+
+
 
 			<?php endwhile; // end of the loop. ?>
 
 			</div><!-- #content -->
-			
-				
+
+
 		</div><!-- #content-container -->
 
 <?php include(TEMPLATEPATH."/right.php");?>

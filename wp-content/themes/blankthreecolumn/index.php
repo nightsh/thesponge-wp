@@ -5,7 +5,7 @@
  * @since BTC 1.0
  */
 
-get_header(); 
+get_header();
 ?>
 
 <?php include(TEMPLATEPATH."/topic_of_the_month.php");?>
@@ -17,10 +17,12 @@ get_header();
                     $args = array( 'numberposts' => 8, 'offset'=> 0, 'order'=>'DESC' , 'orderby' => 'post_date', 'category' => -12 );
                     $lastposts = get_posts( $args );
                     $i=0;
+                    $j=1;
                     foreach($lastposts as $post) : setup_postdata($post);
-                        if($i==0){
+                        if($i<2){
 
-                            echo '<tr><td valign="top"><div class="sections">';
+                            if($i<1) echo '<tr>';
+                            echo '<td valign="top"><div class="sections">';
                         $category = get_the_category();
                             if($category[0]){
                                 echo '<ul><li class="index-cat cat-item cat-item-'.$category[0]->cat_ID.'"><a href="'.get_category_link($category[0]->term_id).'">'.$category[0]->cat_name.'</a></li></ul>';
@@ -33,13 +35,17 @@ get_header();
                             </div>
                             <?php
                             echo '</div></td>';
-                            $i=1;
-                        }
-                        else
-                        {
+                            echo "\n<!-- [$j] -->\n";
+                            $i++;
+                            if ($j==8) {
+                                echo '<td valign="top">';
+                                include(TEMPLATEPATH."/right.php");
+                                echo '</td></tr>';
+                            }
+                        } else {
                             echo '<td valign="top"><div class="sections">';
                             $category = get_the_category();
-                            if($category[0]){
+                            if ($category[0]) {
                                 echo '<ul><li class="index-cat cat-item cat-item-'.$category[0]->cat_ID.'"><a href="'.get_category_link($category[0]->term_id).'">'.$category[0]->cat_name.'</a></li></ul>';
                             }
                             ?>
@@ -49,10 +55,17 @@ get_header();
                                 <?php echo get_the_excerpt(); ?>
                             </div>
                             <?php
-                            echo '</div></td></tr>';
+                            echo '</div></td>';
+                            echo "\n<!-- [$j] -->\n";
+                            echo "\n<!-- ----------------------[ another row ]-------------------------- -->\n";
+                            if ($j!=8) {
+                                echo '</tr>';
+                            }
                             $i=0;
 
-                        } ?>
+                        }
+                        $j++;
+                        ?>
 
                         <?php endforeach; ?>
 
@@ -68,6 +81,5 @@ get_header();
 
 		</div><!-- #content-container -->
 
-<?php include(TEMPLATEPATH."/right.php");?>
 
 <?php get_footer(); ?>

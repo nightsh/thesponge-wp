@@ -198,7 +198,7 @@ font-size:20px;
 
 
 #container {
-	width:960px;
+	width:984px;;
 	margin: 0 auto;
 	padding:0px;
 	overflow:hidden;
@@ -223,7 +223,7 @@ text-align: center;
 {
     margin-left: auto;
     margin-right: auto;
-    width:960px;
+    width:984px;;
 }
 
 #top_links a
@@ -490,7 +490,7 @@ current-menu-parent > li
 {
     width:478px;
     border-left:1px solid #d1d3d4;
-    border-right:1px solid #d1d3d4;
+    /*border-right:1px solid #d1d3d4;*/
 }
 
 .page-content-container {
@@ -499,7 +499,7 @@ current-menu-parent > li
 }
 
 #footerContent {
-    width:960px;
+    width:984px;;
     margin-left:auto;
     margin-right:auto;
     text-align: left;
@@ -635,7 +635,7 @@ font-style:italic;
 .sections
 {
     width:220px;
-    padding:0 8px 0 8px;
+    padding:0 7px 0 7px;
     float:left;
 	margin-bottom:8px;
 	clear:both;
@@ -733,7 +733,7 @@ border:0px;
 }
 
 #right-sidebar{
-	width:163px;
+	width:220px;
 	float:left;
 	padding-left:6px;
 }
@@ -763,21 +763,23 @@ margin:0px;}
 .categories_right li
 {
     list-style-type: none;
-    padding-left:10px;
-    padding-right:10px;
+    /*padding-left:10px;*/
+    /*padding-right:10px;*/
     text-transform: uppercase;
+    text-align: center;
     background-color:#cfb635;
-    margin-top:10px;
-    width:143px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius:5px;
-    border-radius:5px;
+    margin-top:5px;
+    width:100%;
+    -webkit-border-radius: 2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    font-size: .8em;
 }
 
 
 .categories_right a
 {
-    color:#ffffff;
+    color:#333;
 }
 
 li.cat-item.cat-item-4
@@ -1318,7 +1320,7 @@ padding-right:20px;
 
 .book-content-container
 {
-    width: 960px;
+    width: 984px;;
     float:left;
 
 }
@@ -1919,4 +1921,21 @@ min-height:180px;
 
 #menu-item-686 a {
 	content: '';
+}
+
+#read_gray {
+    margin-top: 5px;
+    position: relative;
+    height: 50px;
+    background: #333333;
+}
+
+#read_gray #read_text {
+    float: right !important;
+    width: 40px !important;
+    color: #FFFFFF !important;
+    text-align: justify !important;
+    font-weight: bolder !important;
+    margin-right: 5px !important;
+    text-decoration: none !important;
 }
