@@ -51,6 +51,11 @@
                                 <img src="<?php echo bloginfo('template_directory'); ?>/images/rosedu_logo.png" alt="" />
                             </a>
                         </td>
+                        <td>
+                            <a href="http://fspub.unibuc.ro" target="_blank">
+                                <img src="<?php echo bloginfo('template_directory'); ?>/images/fspub_logo.png" alt="" />
+                            </a>
+                        </td>
                     </tr>
                 </table>
 			</div><!-- #site-info -->
