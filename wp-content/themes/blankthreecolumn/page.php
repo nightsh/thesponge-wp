@@ -17,7 +17,7 @@
      $children = wp_list_pages("title_li=&child_of=".$post->post_parent."&echo=1&menu_order=$sort_column");
      //$title_heading = get_the_title($post->post_parent);
   }
- 
+
   else {
   $children = wp_list_pages("title_li=&child_of=".$post->ID."&echo=1");
   $title_heading = get_the_title($post->ID);
@@ -30,7 +30,6 @@
    </ul>
 
 </div>
-
 		<div id="content-container" class="page-content-container">
 			<div id="content" role="content-box">
 
@@ -49,8 +48,8 @@
 						<?php edit_post_link( __( 'Edit', 'BTC' ), '<p class="edit-link">', '</p>' ); ?>
 					</div><!-- .entry-content -->
 				</div><!-- #post-## -->
-				
-				
+
+
 				<?php /* Enable/disable comments in pages */
 			if( get_option('of_pages_comments') == 'true') { ?>
 				<?php comments_template( '', true ); ?>
