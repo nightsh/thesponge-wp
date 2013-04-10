@@ -83,7 +83,13 @@
               <a id="top" href="http://ceata.org/" target="_blank">ceata</span></a>
           </li>
           <li>
-              <a id="top" href="http://geo-spatial.org" target="_blank">geo_spatial</span></a>
+              <a id="top" href="http://geo-spatial.org" target="_blank">geo-spatial</span></a>
+          </li>
+          <li>
+              <a id="top" href="http://apti.ro" target="_blank">apti</span></a>
+          </li>
+          <li>
+              <a id="top" href="http://rosedu.org" target="_blank">rosedu</span></a>
           </li>
     </ul>
     </div>
@@ -94,28 +100,28 @@
 </div>
 <div id="container">
 
-	
+
 <div id="header">
-		
+
 	<div id="logo">
         <a href="<?php echo esc_url( site_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"></a>
     </div>
 	<div id="bloginfo">
         <h2 class="top_h"><?php bloginfo('description'); ?></h2>
     </div>
-	
-		
+
+
 		<!--<div id="headersearch">
 				<?php get_search_form(); ?>
 		</div>-->
 </div>
-	
-		
-	
+
+
+
 <div id="access">
 <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
 </div>
-	
+
 <!--<img src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" class="header-img" alt="" />-->
 
 

@@ -270,13 +270,13 @@ padding-left:0px;}
 {
     list-style-type:none;
     margin:0px;
-    padding-left: 90px;
+    padding-left: 20px;
     padding-top: 3px;
 }
 
 #right_links ul li
 {
-    padding-left: 24px;
+    padding-left: 20px;
 
     display: inline;
 }
@@ -1467,7 +1467,7 @@ float:left;}
     margin-top: 0px;
     margin-bottom:0px;
     float:left;
-    padding-left:107px;
+    padding-left:50px;
 	padding-top:3px;
 }
 
@@ -1938,4 +1938,12 @@ min-height:180px;
     font-weight: bolder !important;
     margin-right: 5px !important;
     text-decoration: none !important;
+}
+
+table#footer_logos {
+    float: left;
+}
+
+table#footer_logos td {
+    padding: 0px 10px;
 }
